@@ -33,7 +33,7 @@ export function ResearchSection() {
         >
           <div className="gold-line mb-6" />
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Research & Publications
+            Research & <span className="text-accent">Publications</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mb-12">
             Advancing human-centered AI governance through peer-reviewed research and replicable policy frameworks.
@@ -48,14 +48,14 @@ export function ResearchSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.6, delay: i * 0.15 }}
-              className="bg-card rounded-2xl p-8 md:p-10 border border-border/50 hover:border-accent/30 transition-colors"
+              className="bg-card rounded-2xl p-8 md:p-10 border border-border/50 hover:border-accent/30 hover:shadow-lg transition-all"
             >
               <div className="flex flex-wrap items-center gap-3 mb-4">
                 <span
                   className={`text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full ${
                     pub.tag === "Published"
                       ? "bg-primary/10 text-primary"
-                      : "bg-accent/15 text-accent-foreground"
+                      : "bg-accent/15 text-accent"
                   }`}
                 >
                   {pub.tag}

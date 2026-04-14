@@ -2,6 +2,18 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
+    role: "Founder",
+    org: "Renaissance Lab — Human-Centered AI Research Initiative",
+    type: "AI Research & Community",
+    period: "2026 – Present",
+    highlights: [
+      "Founded Renaissance Lab, an independent human-centered AI research and community initiative exploring how AI systems can be designed, governed, and deployed in ways that genuinely centre human dignity, agency, and well-being — particularly in African and Global South contexts.",
+      "Leading applied research into participatory AI design methodologies: how communities with no formal AI background can meaningfully shape the systems that will affect their lives, from healthcare tools to government platforms.",
+      "Building a community AI literacy programme that meets people where they are — from rural farmers and market traders to secondary school students and local government officials — translating complex AI concepts into relevant, accessible knowledge regardless of formal education level.",
+      "Developing open frameworks and educational resources on explainable AI, algorithmic accountability, and human rights-based approaches to AI, designed for practitioners and policymakers in low-resource contexts.",
+    ],
+  },
+  {
     role: "Managing Director",
     org: "Nebotech",
     type: "Digital Transformation & E-Government",
@@ -65,14 +77,18 @@ export function ExperienceSection() {
         transition={{ duration: 0.7 }}
       >
         <div className="gold-line mb-6" />
-        <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12">Experience</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+          My <span className="text-accent">Experience</span>
+        </h2>
+        <p className="text-muted-foreground max-w-2xl mb-12">
+          Six years of hands-on experience shaping AI governance and digital transformation across Africa.
+        </p>
       </motion.div>
 
       <div className="relative">
-        {/* Timeline line */}
-        <div className="hidden md:block absolute left-0 top-0 bottom-0 w-px bg-border" />
+        <div className="hidden md:block absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-accent via-primary/30 to-transparent" />
 
-        <div className="space-y-12 md:pl-10">
+        <div className="space-y-10 md:pl-10">
           {experiences.map((exp, i) => (
             <motion.div
               key={i}
@@ -80,26 +96,27 @@ export function ExperienceSection() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
-              className="relative"
+              className="relative group"
             >
-              {/* Timeline dot */}
-              <div className="hidden md:block absolute -left-10 top-2 w-3 h-3 rounded-full bg-accent border-2 border-background -translate-x-[5px]" />
+              <div className="hidden md:block absolute -left-10 top-2 w-4 h-4 rounded-full bg-accent/20 border-2 border-accent -translate-x-[6px] group-hover:bg-accent transition-colors" />
 
-              <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1 mb-2">
-                <h3 className="text-xl font-semibold text-foreground">{exp.role}</h3>
-                <span className="text-sm text-accent font-medium">{exp.period}</span>
+              <div className="bg-card rounded-2xl p-6 md:p-8 border border-border/50 hover:border-accent/30 hover:shadow-lg transition-all">
+                <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1 mb-2">
+                  <h3 className="text-xl font-semibold text-foreground">{exp.role}</h3>
+                  <span className="text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-accent/15 text-accent">{exp.period}</span>
+                </div>
+                <p className="text-base text-primary font-medium mb-1">{exp.org}</p>
+                <p className="text-sm text-muted-foreground mb-4">{exp.type}</p>
+
+                <ul className="space-y-2">
+                  {exp.highlights.map((h, j) => (
+                    <li key={j} className="flex gap-3 text-sm text-muted-foreground leading-relaxed">
+                      <span className="text-accent mt-1 shrink-0 w-1.5 h-1.5 rounded-full bg-accent" />
+                      <span>{h}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <p className="text-base text-primary font-medium mb-1">{exp.org}</p>
-              <p className="text-sm text-muted-foreground mb-4">{exp.type}</p>
-
-              <ul className="space-y-2">
-                {exp.highlights.map((h, j) => (
-                  <li key={j} className="flex gap-3 text-sm text-muted-foreground leading-relaxed">
-                    <span className="text-accent mt-1.5 shrink-0">▸</span>
-                    <span>{h}</span>
-                  </li>
-                ))}
-              </ul>
             </motion.div>
           ))}
         </div>

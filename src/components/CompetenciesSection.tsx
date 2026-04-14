@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 const competencyGroups = [
   {
     title: "AI Governance, Policy & Ethics",
+    icon: "🛡️",
     items: [
       "AI policy analysis & regulatory framework design",
       "Explainable AI (XAI) evaluation & human oversight models",
@@ -14,6 +15,7 @@ const competencyGroups = [
   },
   {
     title: "Digital Public Infrastructure & Policy",
+    icon: "🏛️",
     items: [
       "DPI design & governance (DPG Alliance standards)",
       "Open-source platform strategy & interoperability",
@@ -35,11 +37,11 @@ export function CompetenciesSection() {
       >
         <div className="gold-line mb-6" />
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12">
-          Core Competencies
+          Core <span className="text-accent">Competencies</span>
         </h2>
       </motion.div>
 
-      <div className="grid md:grid-cols-2 gap-10">
+      <div className="grid md:grid-cols-2 gap-8">
         {competencyGroups.map((group, i) => (
           <motion.div
             key={i}
@@ -47,13 +49,16 @@ export function CompetenciesSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: i * 0.15 }}
-            className="bg-card rounded-2xl p-8 border border-border/50"
+            className="bg-card rounded-2xl p-8 border border-border/50 hover:border-accent/30 hover:shadow-lg transition-all"
           >
-            <h3 className="text-lg font-semibold text-foreground mb-6">{group.title}</h3>
+            <div className="flex items-center gap-3 mb-6">
+              <span className="text-2xl">{group.icon}</span>
+              <h3 className="text-lg font-semibold text-foreground">{group.title}</h3>
+            </div>
             <ul className="space-y-3">
               {group.items.map((item, j) => (
-                <li key={j} className="flex gap-3 text-sm text-muted-foreground leading-relaxed">
-                  <span className="text-accent shrink-0 mt-0.5">▸</span>
+                <li key={j} className="flex gap-3 text-sm text-muted-foreground leading-relaxed items-start">
+                  <span className="mt-1.5 shrink-0 w-1.5 h-1.5 rounded-full bg-accent" />
                   <span>{item}</span>
                 </li>
               ))}
