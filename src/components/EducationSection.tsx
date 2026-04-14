@@ -32,19 +32,19 @@ export function EducationSection() {
         >
           <div className="gold-line mb-6" />
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-12">
-            Education & Recognition
+            Education & <span className="text-accent">Recognition</span>
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-10">
-          {/* Education */}
+        <div className="grid md:grid-cols-3 gap-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
+            className="bg-card rounded-2xl p-6 border border-border/50 hover:border-accent/30 transition-all"
           >
-            <h3 className="text-lg font-semibold text-foreground mb-6 uppercase tracking-wider text-sm">Education</h3>
+            <h3 className="text-sm font-semibold text-foreground mb-6 uppercase tracking-wider">Education</h3>
             <div className="space-y-6">
               {education.map((e, i) => (
                 <div key={i}>
@@ -56,36 +56,36 @@ export function EducationSection() {
             </div>
           </motion.div>
 
-          {/* Certifications */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.15 }}
+            className="bg-card rounded-2xl p-6 border border-border/50 hover:border-accent/30 transition-all"
           >
-            <h3 className="text-lg font-semibold text-foreground mb-6 uppercase tracking-wider text-sm">Certifications</h3>
+            <h3 className="text-sm font-semibold text-foreground mb-6 uppercase tracking-wider">Certifications</h3>
             <ul className="space-y-3">
               {certifications.map((c, i) => (
-                <li key={i} className="flex gap-3 text-sm text-muted-foreground">
-                  <span className="text-accent shrink-0">▸</span>
+                <li key={i} className="flex gap-3 text-sm text-muted-foreground items-start">
+                  <span className="mt-1.5 shrink-0 w-1.5 h-1.5 rounded-full bg-accent" />
                   <span>{c}</span>
                 </li>
               ))}
             </ul>
           </motion.div>
 
-          {/* Awards */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.3 }}
+            className="bg-card rounded-2xl p-6 border border-border/50 hover:border-accent/30 transition-all"
           >
-            <h3 className="text-lg font-semibold text-foreground mb-6 uppercase tracking-wider text-sm">Awards & Leadership</h3>
+            <h3 className="text-sm font-semibold text-foreground mb-6 uppercase tracking-wider">Awards & Leadership</h3>
             <ul className="space-y-3">
               {awards.map((a, i) => (
-                <li key={i} className="flex gap-3 text-sm text-muted-foreground">
-                  <span className="text-accent shrink-0">▸</span>
+                <li key={i} className="flex gap-3 text-sm text-muted-foreground items-start">
+                  <span className="mt-1.5 shrink-0 w-1.5 h-1.5 rounded-full bg-accent" />
                   <span>{a}</span>
                 </li>
               ))}
