@@ -2,17 +2,29 @@ import { motion } from "framer-motion";
 
 const publications = [
   {
-    status: "Accepted — HCI International 2026",
-    venue: "Barcelona, July 2026",
+    status: "Paper Accepted — HCI International 2026",
+    venue: "Montreal, Canada · July 2026",
+    id: "ID: 605",
     title:
-      "Accessibility by Design: Assessing AI-Powered Tools and Prompting Techniques in E-Government UI Redesign",
+      "An Experimental Study on Accessibility of AI-Powered UI Design Tools for E-Government Using Few-Shot and Zero-Shot Prompting",
     description:
-      "First AI-assisted governance framework for identifying and remediating accessibility barriers in low-resource e-government contexts. Evaluated AI-powered accessibility tools against 8 Rwandan e-government platforms using Nielsen/Norman heuristics and SUS benchmarking.",
-    tag: "Published",
+      "Experimentally evaluated AI-powered UI design tools using few-shot and zero-shot prompting techniques to assess their effectiveness in improving accessibility on Rwandan e-government platforms. Produced a framework for integrating AI prompting strategies into government digital service design workflows.",
+    tag: "Accepted",
+  },
+  {
+    status: "Poster Accepted — HCI International 2026",
+    venue: "Montreal, Canada · July 2026",
+    id: "ID: 1032",
+    title:
+      "A Comparative Study of Automated Accessibility Checker Tools and Manual Evaluation on Rwanda's E-Government Portals: Towards a Hybrid Framework for Digital Inclusion",
+    description:
+      "Compared automated accessibility checker tools against manual expert evaluation across Rwanda's e-government portals. Proposed a hybrid governance framework combining both approaches to achieve more equitable and comprehensive digital inclusion outcomes. Co-authored with Dr. Edith Talina Luhanga.",
+    tag: "Accepted",
   },
   {
     status: "In Progress",
     venue: "",
+    id: "",
     title:
       "Evaluating AI Usability Testing Tools: Effectiveness Using Norman Heuristics and the Standardized Usability Scale (SUS)",
     description:
@@ -53,7 +65,7 @@ export function ResearchSection() {
               <div className="flex flex-wrap items-center gap-3 mb-4">
                 <span
                   className={`text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full ${
-                    pub.tag === "Published"
+                    pub.tag === "Accepted"
                       ? "bg-primary/10 text-primary"
                       : "bg-accent/15 text-accent"
                   }`}
@@ -63,6 +75,9 @@ export function ResearchSection() {
                 <span className="text-sm text-muted-foreground">{pub.status}</span>
                 {pub.venue && (
                   <span className="text-sm text-muted-foreground">· {pub.venue}</span>
+                )}
+                {pub.id && (
+                  <span className="text-sm text-muted-foreground">· {pub.id}</span>
                 )}
               </div>
               <h3 className="text-xl md:text-2xl font-semibold text-foreground leading-snug mb-4 font-serif italic">

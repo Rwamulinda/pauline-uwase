@@ -7,7 +7,7 @@ const experiences = [
     type: "AI Research & Community",
     period: "2026 – Present",
     highlights: [
-      "Founded Renaissance Lab, an independent human-centered AI research and community initiative exploring how AI systems can be designed, governed, and deployed in ways that genuinely centre human dignity, agency, and well-being — particularly in African and Global South contexts.",
+      "Founded Renaissance Lab, an independent human-centered AI research and community initiative exploring how AI systems can be designed, governed, and deployed in ways that genuinely centre human dignity, agency, and well-being — particularly in African contexts.",
       "Leading applied research into participatory AI design methodologies: how communities with no formal AI background can meaningfully shape the systems that will affect their lives, from healthcare tools to government platforms.",
       "Building a community AI literacy programme that meets people where they are — from rural farmers and market traders to secondary school students and local government officials — translating complex AI concepts into relevant, accessible knowledge regardless of formal education level.",
       "Developing open frameworks and educational resources on explainable AI, algorithmic accountability, and human rights-based approaches to AI, designed for practitioners and policymakers in low-resource contexts.",
@@ -19,7 +19,7 @@ const experiences = [
     type: "Digital Transformation & E-Government",
     period: "2024 – Present",
     highlights: [
-      "Leading national rollout of Umucyo e-Procurement V2 — Rwanda's flagship digital public procurement platform — across 20+ ministries",
+      "Leading national rollout of Umucyo e-Procurement V2 — Rwanda's flagship digital public procurement platform — coordinating government institutions, engineering teams, and international partners across 20+ ministries",
       "Applying human-centered AI design principles ensuring AI-assisted features are explainable, auditable, and aligned with Rwanda's AI policy",
       "Architecting DPG-aligned, open-standard platforms embedding accessibility and AI policy compliance at infrastructure level",
       "30% faster delivery through Agile process reform and cross-functional alignment",
@@ -29,11 +29,13 @@ const experiences = [
     role: "Research Associate",
     org: "CyLab-Upanzi, Carnegie Mellon University Africa",
     type: "AI Governance Research",
-    period: "2024 – Present",
+    period: "2024 – 2026",
     highlights: [
-      "HCI Intl. 2026 accepted — First human-centered AI governance framework for accessibility evaluation on Rwanda's e-government platforms",
-      "Investigating explainable AI (XAI) requirements: audit trails, interpretability standards, and human oversight as enforceable policy",
-      "Co-designing evaluation protocols with civil servants and citizens interacting with AI-powered government services",
+      "1 paper and 1 poster accepted at HCI International 2026 (Montreal, Canada) — experimental study on AI-powered accessibility tools using few-shot & zero-shot prompting (ID: 605), and a comparative hybrid framework for digital inclusion on Rwanda's e-government portals (ID: 1032, with Dr. Edith Talina Luhanga)",
+      "Conducted end-to-end UX audits across multiple DPG and DPI digital solutions, including an AI Policy Analyzer and AppKit (an AI-powered app vulnerability testing tool), covering heuristic evaluation, accessibility conformance testing, and usability benchmarking",
+      "Designed and executed qualitative and quantitative research to capture user feedback on DPG and DPI stack solutions: structured surveys, in-depth interviews, and moderated usability sessions with civil servants, developers, and end users",
+      "Investigating explainable AI (XAI) requirements in e-government contexts: audit trails, interpretability standards, and human oversight as enforceable policy",
+      "Applying human-centered AI design throughout research: co-designing evaluation protocols with the end users who interact with AI-powered government solutions daily",
     ],
   },
   {

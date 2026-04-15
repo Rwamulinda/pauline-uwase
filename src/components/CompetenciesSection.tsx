@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 const competencyGroups = [
   {
     title: "AI Governance, Policy & Ethics",
-    icon: "🛡️",
     items: [
       "AI policy analysis & regulatory framework design",
       "Explainable AI (XAI) evaluation & human oversight models",
@@ -15,13 +14,34 @@ const competencyGroups = [
   },
   {
     title: "Digital Public Infrastructure & Policy",
-    icon: "🏛️",
     items: [
       "DPI design & governance (DPG Alliance standards)",
       "Open-source platform strategy & interoperability",
       "Stakeholder management at ministerial level",
       "Citizen-centred service design & co-creation",
       "Cross-institutional change management",
+    ],
+  },
+  {
+    title: "Software Engineering, UX & Tech Leadership",
+    items: [
+      "Full-stack development: React, Vue.js, Node.js, HTML5, CSS3",
+      "UX research: contextual inquiry, usability testing, user research, SUS",
+      "Accessibility engineering: WCAG 2.1 A/AA/AAA, POUR principles",
+      "Figma prototyping, design systems & interaction design",
+      "Agile delivery, backlog management & cross-functional team leadership",
+      "Open-source platform architecture & API integration",
+    ],
+  },
+  {
+    title: "Research Methods, Data Analytics & Communication",
+    items: [
+      "Mixed-methods research design: quantitative, qualitative & participatory",
+      "Data analysis: Python (Pandas, NumPy, Matplotlib, Scikit-learn, SciPy)",
+      "Academic & technical writing; peer-review & conference publication",
+      "Research ethics, IRB processes & institutional review compliance",
+      "High analytical rigour, attention to detail & professional integrity",
+      "Clear communication of complex technical concepts to non-expert audiences",
     ],
   },
 ];
@@ -48,13 +68,10 @@ export function CompetenciesSection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: i * 0.15 }}
+            transition={{ duration: 0.6, delay: i * 0.1 }}
             className="bg-card rounded-2xl p-8 border border-border/50 hover:border-accent/30 hover:shadow-lg transition-all"
           >
-            <div className="flex items-center gap-3 mb-6">
-              <span className="text-2xl">{group.icon}</span>
-              <h3 className="text-lg font-semibold text-foreground">{group.title}</h3>
-            </div>
+            <h3 className="text-lg font-semibold text-foreground mb-6">{group.title}</h3>
             <ul className="space-y-3">
               {group.items.map((item, j) => (
                 <li key={j} className="flex gap-3 text-sm text-muted-foreground leading-relaxed items-start">
