@@ -53,11 +53,10 @@ export function HeroSection() {
             </h1>
 
             <p className="mt-6 text-xl md:text-2xl font-serif text-muted-foreground leading-relaxed">
-              Human-Centered AI & Governance Researcher · Digital Transformation Leader
+              Human-Centered AI · Digital Transformation Leader
             </p>
             <p className="mt-4 text-base text-muted-foreground leading-relaxed max-w-xl">
-              Shaping how African governments build, deploy, and govern
-              AI-powered public services — from Kigali to the world.
+              I am a Human-Centered AI Researcher and Digital Transformation Leader focused on designing and scaling technologies that put people at the center. My work bridges innovation, ethics, and impact ensuring digital solutions are not only intelligent, but inclusive, trusted, and meaningful.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">

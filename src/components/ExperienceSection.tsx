@@ -58,15 +58,6 @@ const experiences = [
       "Evaluated 50+ assistive technology applications using SUS benchmarking",
     ],
   },
-  {
-    role: "UI/UX Designer",
-    org: "Rwanda Education Board — TMIS",
-    type: "E-Government UX",
-    period: "2022 – 2023",
-    highlights: [
-      "Improved UX score from 50% to 70% on the national Teacher Management Information System serving 80,000+ teachers",
-    ],
-  },
 ];
 
 export function ExperienceSection() {

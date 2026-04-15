@@ -102,7 +102,7 @@ export function AboutSection() {
         </div>
         <div className="bg-card rounded-2xl p-6 border border-border/50 hover:border-accent/30 transition-colors">
           <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-1">Current Focus</p>
-          <p className="text-foreground font-medium">Human-Centered AI Research & Digital Transformation in Africa</p>
+          <p className="text-foreground font-medium">Human-Centered AI Research and Digital Transformation in Africa</p>
         </div>
         <div className="bg-card rounded-2xl p-6 border border-border/50 hover:border-accent/30 transition-colors">
           <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-1">Affiliations</p>
