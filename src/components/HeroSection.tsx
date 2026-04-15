@@ -53,7 +53,7 @@ export function HeroSection() {
             </h1>
 
             <p className="mt-6 text-xl md:text-2xl font-serif text-muted-foreground leading-relaxed">
-              AI Governance Researcher & Digital Transformation Leader
+              Human-Centered AI & Governance Researcher · Digital Transformation Leader
             </p>
             <p className="mt-4 text-base text-muted-foreground leading-relaxed max-w-xl">
               Shaping how African governments build, deploy, and govern

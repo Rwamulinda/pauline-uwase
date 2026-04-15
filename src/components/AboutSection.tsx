@@ -49,20 +49,27 @@ export function AboutSection() {
           transition={{ duration: 0.7, delay: 0.15 }}
         >
           <p className="text-lg font-serif text-foreground/85 leading-relaxed">
-            I work at the intersection of AI policy, explainable AI, and human-centered
-            design — with six years of hands-on experience shaping how African governments
-            build, deploy, and govern AI-powered public services.
+            I work at the intersection of AI governance, human-centered design, and impactful
+            digital transformation across Africa, with six years of hands-on experience shaping
+            how Africa's large-scale tech solutions are researched, designed, built, tested, and
+            deployed. Africa is moving towards AI solutions — and for AI to truly evolve and become
+            sovereign in Africa, it requires strong research, robust governance, and deep capacity
+            building ensuring every end user, regardless of background, can engage with AI solutions
+            not just as a consumer, but as an informed and empowered participant.
           </p>
           <p className="mt-5 text-base text-muted-foreground leading-relaxed">
-            Currently leading Rwanda's national e-procurement platform at Nebotech and
-            conducting AI governance research at CMU Africa's CyLab-Upanzi, I bring both
-            research rigour and policy-implementation depth to responsible AI governance.
+            Currently leading Rwanda's national digital transformative solutions at Nebotech,
+            conducting AI governance and policy research at CMU Africa's CyLab-Upanzi, and
+            founding Renaissance Lab — a human-centered AI initiative dedicated to making AI
+            meaningful and accessible regardless of education level of end users — I bring research
+            rigour, policy-implementation depth, and grassroots community reach to responsible AI governance.
           </p>
           <p className="mt-5 text-base text-muted-foreground leading-relaxed">
             My core conviction: AI systems in public life must be{" "}
             <span className="text-accent font-medium">explainable</span> to the people they affect,{" "}
-            <span className="text-accent font-medium">designed</span> around human needs, and{" "}
-            <span className="text-accent font-medium">governed</span> by clear, enforceable policy.
+            <span className="text-accent font-medium">designed</span> around human needs from the outset, and{" "}
+            <span className="text-accent font-medium">governed</span> by clear, enforceable policy — with
+            the voices of African communities at the centre of every decision.
           </p>
 
           {/* Stats */}
@@ -95,11 +102,11 @@ export function AboutSection() {
         </div>
         <div className="bg-card rounded-2xl p-6 border border-border/50 hover:border-accent/30 transition-colors">
           <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-1">Current Focus</p>
-          <p className="text-foreground font-medium">AI Governance for the Global South</p>
+          <p className="text-foreground font-medium">Human-Centered AI Research & Digital Transformation in Africa</p>
         </div>
         <div className="bg-card rounded-2xl p-6 border border-border/50 hover:border-accent/30 transition-colors">
           <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-1">Affiliations</p>
-          <p className="text-foreground font-medium">Nebotech · CyLab-Upanzi, CMU Africa</p>
+          <p className="text-foreground font-medium">Nebotech · CyLab-Upanzi, CMU Africa · Renaissance Lab</p>
         </div>
       </motion.div>
     </section>
