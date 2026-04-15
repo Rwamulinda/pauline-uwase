@@ -12,7 +12,7 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Pauline Uwase — AI Governance Researcher & Digital Transformation Leader" },
+      { title: "Pauline Uwase — Human-Centered AI · Digital Transformation Leader" },
       {
         name: "description",
         content:

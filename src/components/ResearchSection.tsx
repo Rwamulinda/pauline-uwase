@@ -21,16 +21,6 @@ const publications = [
       "Compared automated accessibility checker tools against manual expert evaluation across Rwanda's e-government portals. Proposed a hybrid governance framework combining both approaches to achieve more equitable and comprehensive digital inclusion outcomes. Co-authored with Dr. Edith Talina Luhanga.",
     tag: "Accepted",
   },
-  {
-    status: "In Progress",
-    venue: "",
-    id: "",
-    title:
-      "Evaluating AI Usability Testing Tools: Effectiveness Using Norman Heuristics and the Standardized Usability Scale (SUS)",
-    description:
-      "Investigating how AI-powered usability testing tools perform against established heuristic evaluation frameworks.",
-    tag: "In Progress",
-  },
 ];
 
 export function ResearchSection() {
