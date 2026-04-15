@@ -9,7 +9,7 @@ export function HeroSection() {
         {[...Array(12)].map((_, i) => (
           <motion.div
             key={i}
-            className="absolute rounded-full bg-accent/15"
+            className="absolute rounded-full bg-primary/20"
             style={{
               width: `${8 + Math.random() * 20}px`,
               height: `${8 + Math.random() * 20}px`,
