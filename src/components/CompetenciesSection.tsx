@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import mascotShowcase from "@/assets/mascot-showcase.png";
 
 const competencyGroups = [
   {
@@ -61,7 +62,7 @@ export function CompetenciesSection() {
         </h2>
       </motion.div>
 
-      <div className="grid md:grid-cols-2 gap-8">
+      <div className="relative grid md:grid-cols-2 gap-8">
         {competencyGroups.map((group, i) => (
           <motion.div
             key={i}
@@ -82,7 +83,46 @@ export function CompetenciesSection() {
             </ul>
           </motion.div>
         ))}
+
+        {/* Showcase mascot — sits between the cards on desktop */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7, delay: 0.3 }}
+          className="hidden md:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none z-10 items-center justify-center"
+        >
+          <div className="relative">
+            <div className="absolute inset-0 rounded-full bg-foreground/5 blur-2xl scale-110" />
+            <img
+              src={mascotShowcase}
+              alt="Pauline showcasing core competencies"
+              loading="lazy"
+              width={1024}
+              height={1024}
+              className="relative w-48 lg:w-56 drop-shadow-2xl"
+            />
+          </div>
+        </motion.div>
       </div>
+
+      {/* Mobile mascot */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+        className="md:hidden flex justify-center mt-8"
+      >
+        <img
+          src={mascotShowcase}
+          alt="Pauline showcasing core competencies"
+          loading="lazy"
+          width={1024}
+          height={1024}
+          className="w-40 drop-shadow-xl"
+        />
+      </motion.div>
     </section>
   );
 }
