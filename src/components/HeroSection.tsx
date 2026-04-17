@@ -4,33 +4,6 @@ import mascotHero from "@/assets/mascot-hero.png";
 export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Decorative floating dots */}
-      <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        {[...Array(12)].map((_, i) => (
-          <motion.div
-            key={i}
-            className="absolute rounded-full bg-primary/20"
-            style={{
-              width: `${8 + Math.random() * 20}px`,
-              height: `${8 + Math.random() * 20}px`,
-              top: `${Math.random() * 100}%`,
-              left: `${Math.random() * 100}%`,
-            }}
-            animate={{
-              y: [0, -15, 0],
-              opacity: [0.3, 0.6, 0.3],
-            }}
-            transition={{
-              duration: 3 + Math.random() * 2,
-              repeat: Infinity,
-              delay: Math.random() * 2,
-            }}
-          />
-        ))}
-      </div>
-
-      <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-surface/40" />
-
       <div className="relative section-padding w-full max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           {/* Left: Text */}

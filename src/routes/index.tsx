@@ -7,6 +7,7 @@ import { ResearchSection } from "@/components/ResearchSection";
 import { ExperienceSection } from "@/components/ExperienceSection";
 import { EducationSection } from "@/components/EducationSection";
 import { ContactSection } from "@/components/ContactSection";
+import { AnimatedBackground } from "@/components/AnimatedBackground";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -25,6 +26,7 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <>
+      <AnimatedBackground />
       <Navigation />
       <main>
         <HeroSection />
