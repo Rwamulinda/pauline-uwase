@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { Moon, Sun } from "lucide-react";
+import { useTheme } from "@/hooks/use-theme";
 
 const links = [
   { label: "About", href: "#about" },
@@ -11,6 +13,7 @@ const links = [
 
 export function Navigation() {
   const [open, setOpen] = useState(false);
+  const { theme, toggle } = useTheme();
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
@@ -30,22 +33,38 @@ export function Navigation() {
               {l.label}
             </a>
           ))}
+          <button
+            onClick={toggle}
+            aria-label="Toggle theme"
+            className="p-2 rounded-full border border-border hover:bg-muted transition-colors"
+          >
+            {theme === "dark" ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+          </button>
         </div>
 
-        {/* Mobile toggle */}
-        <button
-          onClick={() => setOpen(!open)}
-          className="md:hidden p-2 text-foreground"
-          aria-label="Toggle menu"
-        >
-          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-            {open ? (
-              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-            ) : (
-              <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-            )}
-          </svg>
-        </button>
+        {/* Mobile actions */}
+        <div className="md:hidden flex items-center gap-1">
+          <button
+            onClick={toggle}
+            aria-label="Toggle theme"
+            className="p-2 text-foreground"
+          >
+            {theme === "dark" ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+          </button>
+          <button
+            onClick={() => setOpen(!open)}
+            className="p-2 text-foreground"
+            aria-label="Toggle menu"
+          >
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              {open ? (
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+              )}
+            </svg>
+          </button>
+        </div>
       </div>
 
       {/* Mobile menu */}
