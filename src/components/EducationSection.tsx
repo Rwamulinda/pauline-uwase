@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const education = [
   { degree: "MBA — Business Administration (Candidate)", school: "Oklahoma University", year: "2026 – 2027" },
   { degree: "MSc Information Technology (MSIT)", school: "Carnegie Mellon University Africa", year: "2023 – 2025" },
-  { degree: "BSc Computer Science", school: "University of Rwanda", year: "2018 – 2022" },
+  { degree: "BSc Computer Science", school: "University of Rwanda — College of Science and Technology", year: "2018 – 2022" },
 ];
 
 const certifications = [
@@ -13,12 +13,6 @@ const certifications = [
   "Software Design & Architecture — Coursera",
 ];
 
-const awards = [
-  "Full scholarship — Carnegie Mellon University Africa (2023)",
-  "VP, Women in Tech Club — CMU Africa (2023)",
-  "Toastmasters International — Active Member Award (2021)",
-  "Best First Speaker — Inter-University Debate (2018)",
-];
 
 export function EducationSection() {
   return (
@@ -36,7 +30,7 @@ export function EducationSection() {
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
