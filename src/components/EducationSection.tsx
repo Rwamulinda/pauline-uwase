@@ -67,24 +67,6 @@ export function EducationSection() {
               ))}
             </ul>
           </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="bg-card rounded-2xl p-6 border border-border/50 hover:border-accent/30 transition-all"
-          >
-            <h3 className="text-sm font-semibold text-foreground mb-6 uppercase tracking-wider">Awards & Leadership</h3>
-            <ul className="space-y-3">
-              {awards.map((a, i) => (
-                <li key={i} className="flex gap-3 text-sm text-muted-foreground items-start">
-                  <span className="mt-1.5 shrink-0 w-1.5 h-1.5 rounded-full bg-accent" />
-                  <span>{a}</span>
-                </li>
-              ))}
-            </ul>
-          </motion.div>
         </div>
       </div>
     </section>
