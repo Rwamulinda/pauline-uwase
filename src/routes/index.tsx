@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Toaster } from "sonner";
 import { Navigation } from "@/components/Navigation";
 import { HeroSection } from "@/components/HeroSection";
 import { AboutSection } from "@/components/AboutSection";
@@ -8,6 +9,7 @@ import { ExperienceSection } from "@/components/ExperienceSection";
 import { EducationSection } from "@/components/EducationSection";
 import { ContactSection } from "@/components/ContactSection";
 import { AnimatedBackground } from "@/components/AnimatedBackground";
+import { LiveChat } from "@/components/LiveChat";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -40,6 +42,8 @@ function Index() {
       <footer className="py-8 text-center text-sm text-muted-foreground border-t border-border/50">
         © {new Date().getFullYear()} Pauline Uwase. All rights reserved.
       </footer>
+      <LiveChat />
+      <Toaster position="top-right" richColors />
     </>
   );
 }
