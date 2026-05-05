@@ -10,6 +10,7 @@ import { EducationSection } from "@/components/EducationSection";
 import { ContactSection } from "@/components/ContactSection";
 import { AnimatedBackground } from "@/components/AnimatedBackground";
 import { LiveChat } from "@/components/LiveChat";
+import { AccessibilityMenu } from "@/components/AccessibilityMenu";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -43,6 +44,7 @@ function Index() {
         © {new Date().getFullYear()} Pauline Uwase. All rights reserved.
       </footer>
       <LiveChat />
+      <AccessibilityMenu />
       <Toaster position="top-right" richColors />
     </>
   );
