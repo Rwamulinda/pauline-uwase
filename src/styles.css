@@ -198,3 +198,41 @@
     background-color: var(--color-accent);
   }
 }
+
+/* Accessibility menu overrides */
+.a11y-high-contrast {
+  --background: oklch(1 0 0);
+  --foreground: oklch(0 0 0);
+  --muted-foreground: oklch(0.15 0 0);
+  --border: oklch(0 0 0);
+}
+.a11y-high-contrast.dark {
+  --background: oklch(0 0 0);
+  --foreground: oklch(1 0 0);
+  --muted-foreground: oklch(0.95 0 0);
+  --border: oklch(1 0 0);
+}
+.a11y-highlight-links a {
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+  color: var(--color-accent) !important;
+}
+.a11y-reduced-motion *,
+.a11y-reduced-motion *::before,
+.a11y-reduced-motion *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+.a11y-dyslexia {
+  --font-sans: Verdana, Tahoma, sans-serif;
+  --font-heading: Verdana, Tahoma, sans-serif;
+  --font-serif: Georgia, serif;
+}
+.a11y-dyslexia body {
+  letter-spacing: 0.02em;
+  word-spacing: 0.08em;
+  line-height: 1.7;
+}
