@@ -76,7 +76,7 @@ export function AboutSection() {
           <div className="mt-8 flex flex-wrap gap-6">
             {[
               { num: "6+", label: "Years Experience" },
-              { num: "20+", label: "Ministries Served" },
+              { num: "10+", label: "Projects Contributed On" },
               { num: "80K+", label: "Users Impacted" },
             ].map((stat, i) => (
               <div key={i} className="text-center">
