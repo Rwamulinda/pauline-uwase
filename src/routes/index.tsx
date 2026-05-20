@@ -6,6 +6,7 @@ import { AboutSection } from "@/components/AboutSection";
 import { CompetenciesSection } from "@/components/CompetenciesSection";
 import { ResearchSection } from "@/components/ResearchSection";
 import { ExperienceSection } from "@/components/ExperienceSection";
+import { ProjectsSection } from "@/components/ProjectsSection";
 import { EducationSection } from "@/components/EducationSection";
 import { ContactSection } from "@/components/ContactSection";
 import { AnimatedBackground } from "@/components/AnimatedBackground";
@@ -37,6 +38,7 @@ function Index() {
         <CompetenciesSection />
         <ResearchSection />
         <ExperienceSection />
+        <ProjectsSection />
         <EducationSection />
         <ContactSection />
       </main>
