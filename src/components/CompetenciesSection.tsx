@@ -45,6 +45,22 @@ const competencyGroups = [
       "Clear communication of complex technical concepts to non-expert audiences",
     ],
   },
+  {
+    title: "Product Management",
+    items: [
+      "Product Strategy & Roadmap Development",
+      "Product Discovery & User Research",
+      "Requirements Gathering and Prioritization",
+      "Business Requirements Documentation (BRD) & User Stories",
+      "Service Design & Process Optimization",
+      "Agile Product Delivery (Scrum/Kanban)",
+      "Stakeholder Engagement & Cross-Functional Leadership",
+      "Data-Driven Decision Making & Product Analytics",
+      "User Acceptance Testing (UAT) & Quality Assurance",
+      "Product Performance Monitoring & Continuous Improvement",
+      "Team Leadership",
+    ],
+  },
 ];
 
 export function CompetenciesSection() {
