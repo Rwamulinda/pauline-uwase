@@ -6,11 +6,12 @@ export function AnimatedBackground() {
       const x = Math.sin(i * 9301 + 49297) * 233280;
       return x - Math.floor(x);
     };
+    const r = (n: number, d = 2) => Number(n.toFixed(d));
     return Array.from({ length: 55 }).map((_, i) => ({
-      size: 16 + seeded(i) * 80,
-      top: seeded(i + 100) * 100,
-      left: seeded(i + 200) * 100,
-      opacity: 0.08 + seeded(i + 300) * 0.22,
+      size: r(16 + seeded(i) * 80),
+      top: r(seeded(i + 100) * 100),
+      left: r(seeded(i + 200) * 100),
+      opacity: r(0.08 + seeded(i + 300) * 0.22, 3),
     }));
   }, []);
 
