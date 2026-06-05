@@ -12,6 +12,22 @@ import mascotShowcase from "@/assets/mascot-showcase.png";
 
 const competencyGroups = [
   {
+    title: "Product Management",
+    items: [
+      "Product Strategy & Roadmap Development",
+      "Product Discovery & User Research",
+      "Requirements Gathering and Prioritization",
+      "Business Requirements Documentation (BRD) & User Stories",
+      "Service Design & Process Optimization",
+      "Agile Product Delivery (Scrum/Kanban)",
+      "Stakeholder Engagement & Cross-Functional Leadership",
+      "Data-Driven Decision Making & Product Analytics",
+      "User Acceptance Testing (UAT) & Quality Assurance",
+      "Product Performance Monitoring & Continuous Improvement",
+      "Team Leadership",
+    ],
+  },
+  {
     title: "AI Governance, Policy & Ethics",
     items: [
       "AI policy analysis & regulatory framework design",
@@ -52,22 +68,6 @@ const competencyGroups = [
       "Research ethics, IRB processes & institutional review compliance",
       "High analytical rigour, attention to detail & professional integrity",
       "Clear communication of complex technical concepts to non-expert audiences",
-    ],
-  },
-  {
-    title: "Product Management",
-    items: [
-      "Product Strategy & Roadmap Development",
-      "Product Discovery & User Research",
-      "Requirements Gathering and Prioritization",
-      "Business Requirements Documentation (BRD) & User Stories",
-      "Service Design & Process Optimization",
-      "Agile Product Delivery (Scrum/Kanban)",
-      "Stakeholder Engagement & Cross-Functional Leadership",
-      "Data-Driven Decision Making & Product Analytics",
-      "User Acceptance Testing (UAT) & Quality Assurance",
-      "Product Performance Monitoring & Continuous Improvement",
-      "Team Leadership",
     ],
   },
 ];
