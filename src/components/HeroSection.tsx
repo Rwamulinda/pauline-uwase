@@ -26,10 +26,10 @@ export function HeroSection() {
             </h1>
 
             <p className="mt-6 text-xl md:text-2xl font-serif text-muted-foreground leading-relaxed">
-              Human-Centered AI · Digital Transformation Leader
+              Digital Transformation Leader · Human-Centered AI & Digital Public Infrastructure Specialist
             </p>
             <p className="mt-4 text-base text-muted-foreground leading-relaxed max-w-xl">
-              I am a Human-Centered AI Researcher and Digital Transformation Leader focused on designing and scaling technologies that put people at the center. My work bridges innovation, ethics, and impact ensuring digital solutions are not only intelligent, but inclusive, trusted, and meaningful.
+              Product and Digital Transformation Leader with 7 years of experience leading the design, delivery, and scaling of digital products across government, development, healthcare, and private-sector ecosystems — currently leading Rwanda's national e-Procurement platform and cross-functional teams across product, engineering, design, QA, and operations.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">

@@ -2,60 +2,77 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
+    role: "Managing Director & Head of Product",
+    org: "Nebotech Ltd, Kigali, Rwanda",
+    type: "Digital Transformation & Product Leadership",
+    period: "2019 – Present",
+    highlights: [
+      "Lead product strategy, roadmap development, and execution across Nebotech's digital transformation portfolio.",
+      "Manage multidisciplinary teams spanning product management, software engineering, UX/UI design, QA, business analysis, and operations.",
+      "Drive product discovery, stakeholder engagement, requirements prioritization, and delivery planning across multiple initiatives.",
+      "Lead digital transformation programs serving government institutions, development partners, and private-sector organizations.",
+      "Established Agile delivery frameworks that improved delivery efficiency by 30%.",
+      "Oversee quality assurance, product validation, accessibility compliance, and release management processes.",
+      "Manage executive stakeholder relationships and strategic partnerships across public and private sectors.",
+      "Key Project — Umucyo e-Procurement V2: Leading Rwanda's next-generation public procurement platform serving all government institutions; coordinating cross-functional teams and stakeholders across 20+ government institutions; driving modernization via microservices, interoperability, and accessibility standards.",
+      "Key Project — Shora Neza Monitoring & Evaluation Platform: Led product development of a national farmer M&E platform across 15 districts, delivering BI dashboards, field data collection tools, and reporting systems.",
+    ],
+  },
+  {
     role: "Founder",
-    org: "Renaissance Lab — Human-Centered AI Research Initiative",
-    type: "AI Research & Community",
+    org: "Renaissance Lab, Kigali, Rwanda",
+    type: "AI Literacy, Inclusion & Responsible AI",
     period: "2026 – Present",
     highlights: [
-      "Founded Renaissance Lab, an independent human-centered AI research and community initiative exploring how AI systems can be designed, governed, and deployed in ways that genuinely centre human dignity, agency, and well-being — particularly in African contexts.",
-      "Leading applied research into participatory AI design methodologies: how communities with no formal AI background can meaningfully shape the systems that will affect their lives, from healthcare tools to government platforms.",
-      "Building a community AI literacy programme that meets people where they are — from rural farmers and market traders to secondary school students and local government officials — translating complex AI concepts into relevant, accessible knowledge regardless of formal education level.",
-      "Developing open frameworks and educational resources on explainable AI, algorithmic accountability, and human rights-based approaches to AI, designed for practitioners and policymakers in low-resource contexts.",
+      "Founded an initiative focused on advancing AI literacy, digital inclusion, and responsible AI adoption across Africa.",
+      "Lead community-based programs that promote accessible AI education and digital empowerment.",
+      "Develop practical frameworks supporting ethical, explainable, and inclusive AI implementation.",
+      "Collaborate with researchers, practitioners, policymakers, and technology leaders to strengthen digital inclusion across underserved communities.",
+      "Design and deliver AI literacy programs, workshops, and community engagement initiatives targeting youth, professionals, educators, and public-sector stakeholders.",
     ],
   },
   {
-    role: "Managing Director",
-    org: "Nebotech",
-    type: "Digital Transformation & E-Government",
-    period: "2024 – Present",
+    role: "Product Designer & Research Associate",
+    org: "Upanzi-DPI Network Research Lab, Carnegie Mellon University Africa",
+    type: "Digital Public Infrastructure & DPGs",
+    period: "2025 – 2026",
     highlights: [
-      "Leading national rollout of Umucyo e-Procurement V2 — Rwanda's flagship digital public procurement platform — coordinating government institutions, engineering teams, and international partners across 20+ ministries",
-      "Applying human-centered AI design principles ensuring AI-assisted features are explainable, auditable, and aligned with Rwanda's AI policy",
-      "Architecting DPG-aligned, open-standard platforms embedding accessibility and AI policy compliance at infrastructure level",
-      "30% faster delivery through Agile process reform and cross-functional alignment",
+      "Led product design and user experience initiatives across Digital Public Infrastructure (DPI) and Digital Public Goods (DPGs).",
+      "Conducted product discovery, stakeholder engagement, requirements gathering, and solution validation activities.",
+      "Designed user journeys, workflows, wireframes, prototypes, and accessibility improvements across multiple platforms.",
+      "Led quality assurance, accessibility evaluations, usability testing, and product validation activities.",
+      "Supported product strategy decisions through user insights, performance evaluations, and evidence-based recommendations.",
+      "Facilitated stakeholder demonstrations, product validation workshops, and user acceptance testing sessions.",
+      "Key Project — Assisted Authentication (MOSIP-based Digital Identity): Led UX design and product validation supporting inclusive access to digital identity services.",
+      "Key Project — AI Policy Analyzer: Supported product design, testing, and validation of an AI-powered policy analysis platform.",
+      "Key Project — AppKit Security Testing Platform: Conducted product evaluations, usability testing, and QA for AI-powered application vulnerability testing solutions.",
     ],
   },
   {
-    role: "Research Associate",
-    org: "CyLab-Upanzi, Carnegie Mellon University Africa",
-    type: "AI Governance Research",
-    period: "2024 – 2026",
+    role: "Senior Product Management Consultant",
+    org: "Huzalabs, Kigali, Rwanda",
+    type: "Healthcare Product Consulting",
+    period: "Jul 2024 – 2025",
     highlights: [
-      "1 paper and 1 poster accepted at HCI International 2026 (Montreal, Canada) — experimental study on AI-powered accessibility tools using few-shot & zero-shot prompting (ID: 605), and a comparative hybrid framework for digital inclusion on Rwanda's e-government portals (ID: 1032, with Dr. Edith Talina Luhanga)",
-      "Conducted end-to-end UX audits across multiple DPG and DPI digital solutions, including an AI Policy Analyzer and AppKit (an AI-powered app vulnerability testing tool), covering heuristic evaluation, accessibility conformance testing, and usability benchmarking",
-      "Designed and executed qualitative and quantitative research to capture user feedback on DPG and DPI stack solutions: structured surveys, in-depth interviews, and moderated usability sessions with civil servants, developers, and end users",
-      "Investigating explainable AI (XAI) requirements in e-government contexts: audit trails, interpretability standards, and human oversight as enforceable policy",
-      "Applying human-centered AI design throughout research: co-designing evaluation protocols with the end users who interact with AI-powered government solutions daily",
-    ],
-  },
-  {
-    role: "User Researcher",
-    org: "Irembo — Rwanda's National E-Government Portal",
-    type: "UX Research",
-    period: "Mar – Jun 2024",
-    highlights: [
-      "Mixed-methods research on citizen experience across Rwanda's primary digital services platform serving millions",
-      "Produced user personas and evidence-based design recommendations adopted by product and engineering teams",
+      "Key Project — BloodBank Platform: Served as PM Consultant for a digital BloodBank platform improving blood donation, inventory management, and healthcare service coordination.",
+      "Led product discovery sessions with healthcare stakeholders, administrators, and end users.",
+      "Defined product requirements, workflows, user journeys, and operational processes.",
+      "Collaborated with engineering and design teams to deliver scalable and user-centered healthcare solutions.",
+      "Supported roadmap planning, feature prioritization, QA activities, and release coordination.",
+      "Facilitated user acceptance testing and stakeholder validation throughout the product lifecycle.",
     ],
   },
   {
     role: "Research Assistant — Human-Centered Design",
-    org: "Carnegie Mellon University Africa",
-    type: "Assistive Technology",
-    period: "Jun – Sep 2024",
+    org: "Carnegie Mellon University Africa, Kigali, Rwanda",
+    type: "Assistive Technology Research",
+    period: "Jun 2024 – Sep 2024",
     highlights: [
-      "Led participatory research on assistive technology for autistic children, co-designing with parents and community health workers",
-      "Evaluated 50+ assistive technology applications using SUS benchmarking",
+      "Led participatory design research focused on assistive technology solutions for children with autism.",
+      "Conducted stakeholder interviews, field research, usability testing, and solution evaluation.",
+      "Evaluated 50+ assistive technology applications using standardized usability assessment frameworks.",
+      "Collaborated with parents, caregivers, and community health workers to co-design accessible digital solutions.",
+      "Produced actionable recommendations for improving accessibility and user experience.",
     ],
   },
 ];
@@ -74,7 +91,7 @@ export function ExperienceSection() {
           My <span className="text-accent">Experience</span>
         </h2>
         <p className="text-muted-foreground max-w-2xl mb-12">
-          Six years of hands-on experience shaping AI governance and digital transformation across Africa.
+          Seven years leading product, digital transformation, and human-centered design across government, development, healthcare, and private-sector ecosystems.
         </p>
       </motion.div>
 

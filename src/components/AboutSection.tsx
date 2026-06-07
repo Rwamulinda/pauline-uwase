@@ -49,34 +49,32 @@ export function AboutSection() {
           transition={{ duration: 0.7, delay: 0.15 }}
         >
           <p className="text-lg font-serif text-foreground/85 leading-relaxed">
-            I work at the intersection of AI governance, human-centered design, and impactful
-            digital transformation across Africa, with six years of hands-on experience shaping
-            how Africa's large-scale tech solutions are researched, designed, built, tested, and
-            deployed. Africa is moving towards AI solutions — and for AI to truly evolve and become
-            sovereign in Africa, it requires strong research, robust governance, and deep capacity
-            building ensuring every end user, regardless of background, can engage with AI solutions
-            not just as a consumer, but as an informed and empowered participant.
+            Product and Digital Transformation Leader with 7 years of experience leading the
+            design, delivery, and scaling of digital products across government, development,
+            healthcare, and private-sector ecosystems. Experienced in product strategy, product
+            discovery, roadmap development, stakeholder management, software delivery, quality
+            assurance, accessibility, and Digital Public Infrastructure (DPI).
           </p>
           <p className="mt-5 text-base text-muted-foreground leading-relaxed">
-            Currently leading Rwanda's national digital transformative solutions at Nebotech,
-            conducting AI governance and policy research at CMU Africa's CyLab-Upanzi, and
-            founding Renaissance Lab — a human-centered AI initiative dedicated to making AI
-            meaningful and accessible regardless of education level of end users — I bring research
-            rigour, policy-implementation depth, and grassroots community reach to responsible AI governance.
+            Currently leading large-scale digital transformation initiatives including Rwanda's
+            national e-Procurement platform while managing cross-functional teams across product,
+            engineering, design, quality assurance, and operations. Proven ability to translate
+            complex stakeholder needs into scalable digital solutions that deliver measurable impact.
           </p>
           <p className="mt-5 text-base text-muted-foreground leading-relaxed">
-            My core conviction: AI systems in public life must be{" "}
-            <span className="text-accent font-medium">explainable</span> to the people they affect,{" "}
-            <span className="text-accent font-medium">designed</span> around human needs from the outset, and{" "}
-            <span className="text-accent font-medium">governed</span> by clear, enforceable policy — with
-            the voices of African communities at the centre of every decision.
+            Strong expertise in{" "}
+            <span className="text-accent font-medium">platform products</span>,{" "}
+            <span className="text-accent font-medium">digital government services</span>,{" "}
+            product execution, software development lifecycle management,{" "}
+            <span className="text-accent font-medium">user-centered design</span>, accessibility,
+            and AI-enabled digital transformation.
           </p>
 
           {/* Stats */}
           <div className="mt-8 flex flex-wrap gap-6">
             {[
-              { num: "6+", label: "Years Experience" },
-              { num: "10+", label: "Projects Contributed On" },
+              { num: "7+", label: "Years Experience" },
+              { num: "10+", label: "Projects Led" },
               { num: "80K+", label: "Users Impacted" },
             ].map((stat, i) => (
               <div key={i} className="text-center">
