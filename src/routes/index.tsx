@@ -8,6 +8,7 @@ import { ResearchSection } from "@/components/ResearchSection";
 import { ExperienceSection } from "@/components/ExperienceSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { EducationSection } from "@/components/EducationSection";
+import { SkillsLanguagesSection } from "@/components/SkillsLanguagesSection";
 import { ContactSection } from "@/components/ContactSection";
 import { AnimatedBackground } from "@/components/AnimatedBackground";
 import { LiveChat } from "@/components/LiveChat";
@@ -40,6 +41,7 @@ function Index() {
         <ExperienceSection />
         <ProjectsSection />
         <EducationSection />
+        <SkillsLanguagesSection />
         <ContactSection />
       </main>
       <footer className="py-8 text-center text-sm text-muted-foreground border-t border-border/50">
