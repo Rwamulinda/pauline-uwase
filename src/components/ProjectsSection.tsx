@@ -21,13 +21,13 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "Umucyo e-Procurement V2",
+    title: "Umucyo e Procurement V2",
     org: "RDAP Project with RISA & RPPA",
     image: umucyoImg,
   },
   {
     title: "Assisted Authentication Digital ID (Upanzi UPMS)",
-    org: "CyLab-Upanzi DPI Lab at CMU-Africa",
+    org: "CyLab Upanzi DPI Lab at CMU Africa",
     image: upmsImg,
     links: [
       { label: "upms.upanzi.net", href: "https://upms.upanzi.net/" },
@@ -35,7 +35,7 @@ const projects: Project[] = [
   },
   {
     title: "Policy Analyzer (PDP)",
-    org: "CyLab-Upanzi DPI Lab at CMU-Africa",
+    org: "CyLab Upanzi DPI Lab at CMU Africa",
     image: pdpImg,
     links: [{ label: "pdp.upanzi.net", href: "https://pdp.upanzi.net/" }],
   },
@@ -62,7 +62,7 @@ export function ProjectsSection() {
         </h2>
         <p className="text-muted-foreground max-w-2xl mb-12">
           Platforms and design work spanning digital public infrastructure,
-          e-government, and agriculture.
+          e government, and agriculture.
         </p>
       </motion.div>
 

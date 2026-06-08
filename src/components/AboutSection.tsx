@@ -51,13 +51,13 @@ export function AboutSection() {
           <p className="text-lg font-serif text-foreground/85 leading-relaxed">
             Product and Digital Transformation Leader with 7 years of experience leading the
             design, delivery, and scaling of digital products across government, development,
-            healthcare, and private-sector ecosystems. Experienced in product strategy, product
+            healthcare, and private sector ecosystems. Experienced in product strategy, product
             discovery, roadmap development, stakeholder management, software delivery, quality
             assurance, accessibility, and Digital Public Infrastructure (DPI).
           </p>
           <p className="mt-5 text-base text-muted-foreground leading-relaxed">
-            Currently leading the company behind Rwanda's national e-Procurement platform (version 2),
-            managing cross-functional teams across product, engineering, design, quality assurance, and
+            Currently leading the company behind Rwanda's national e Procurement platform (version 2),
+            managing cross functional teams across product, engineering, design, quality assurance, and
             operations. Proven ability to translate complex stakeholder needs into scalable digital
             solutions that deliver measurable impact.
           </p>
@@ -66,8 +66,8 @@ export function AboutSection() {
             <span className="text-accent font-medium">platform products</span>,{" "}
             <span className="text-accent font-medium">digital government services</span>,{" "}
             product execution, software development lifecycle management,{" "}
-            <span className="text-accent font-medium">user-centered design</span>, accessibility,
-            and AI-enabled digital transformation.
+            <span className="text-accent font-medium">user centered design</span>, accessibility,
+            and AI enabled digital transformation.
           </p>
 
           {/* Stats */}

@@ -26,10 +26,10 @@ export function HeroSection() {
             </h1>
 
             <p className="mt-6 text-xl md:text-2xl font-serif text-muted-foreground leading-relaxed">
-              Digital Transformation Leader · Researcher on Human-Centered AI
+              Digital Transformation Leader · Researcher on Human Centered AI
             </p>
             <p className="mt-4 text-base text-muted-foreground leading-relaxed max-w-xl">
-              Product and Digital Transformation Leader with 7 years of experience leading the design, delivery, and scaling of digital products across government, development, healthcare, and private-sector ecosystems — currently leading Rwanda's national e-Procurement platform and cross-functional teams across product, engineering, design, QA, and operations.
+              Product and Digital Transformation Leader with 7 years of experience leading the design, delivery, and scaling of digital products across government, development, healthcare, and private sector ecosystems currently leading Rwanda's national e Procurement platform and cross functional teams across product, engineering, design, QA, and operations.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">

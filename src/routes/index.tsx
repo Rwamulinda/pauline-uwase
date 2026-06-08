@@ -18,11 +18,11 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Pauline Uwase — Human-Centered AI · Digital Transformation Leader" },
+      { title: "Pauline Uwase — Human Centered AI · Digital Transformation Leader" },
       {
         name: "description",
         content:
-          "Portfolio of Pauline Uwase: AI governance researcher, digital transformation leader, and human-centered AI design expert based in Kigali, Rwanda.",
+          "Portfolio of Pauline Uwase: AI governance researcher, digital transformation leader, and human centered AI design expert based in Kigali, Rwanda.",
       },
     ],
   }),
