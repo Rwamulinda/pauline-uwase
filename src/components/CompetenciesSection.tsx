@@ -15,7 +15,7 @@ const competencyGroups = [
     title: "Product Leadership",
     items: [
       "Product Vision & Strategy",
-      "Product Discovery & Validation",
+      "Product Discovery and Validation",
       "Product Roadmapping",
       "Product Lifecycle Management",
       "Product Analytics",
@@ -26,7 +26,7 @@ const competencyGroups = [
   {
     title: "Product Delivery & Ops",
     items: [
-      "Agile & Scrum",
+      "Agile and Scrum",
       "Product Execution",
       "Release Planning",
       "Requirements Engineering",
@@ -51,7 +51,7 @@ const competencyGroups = [
   {
     title: "User Experience",
     items: [
-      "Human-Centered Design",
+      "Human Centered Design",
       "User Research",
       "Service Design",
       "Accessibility (WCAG)",
@@ -74,8 +74,8 @@ const competencyGroups = [
   {
     title: "Key Projects",
     items: [
-      "Umucyo e-Procurement V2",
-      "Shora Neza M&E Platform",
+      "Umucyo e Procurement V2",
+      "Shora Neza M and E Platform",
       "BloodBank Platform",
       "AI Policy Analyzer",
       "Assisted Authentication DPI",
