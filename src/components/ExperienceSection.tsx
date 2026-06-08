@@ -10,7 +10,7 @@ const experiences = [
       "Lead product strategy, roadmap development, and execution across Nebotech's digital transformation portfolio.",
       "Manage multidisciplinary teams spanning product management, software engineering, UX/UI design, QA, business analysis, and operations.",
       "Drive product discovery, stakeholder engagement, requirements prioritization, and delivery planning across multiple initiatives.",
-      "Lead digital transformation programs serving government institutions, development partners, and private-sector organizations.",
+      "Lead digital transformation programs serving government institutions, development partners, and private sector organizations.",
       "Established Agile delivery frameworks that improved delivery efficiency by 30%.",
       "Oversee quality assurance, product validation, accessibility compliance, and release management processes.",
       "Manage executive stakeholder relationships and strategic partnerships across public and private sectors.",
@@ -25,15 +25,15 @@ const experiences = [
     period: "2026 – Present",
     highlights: [
       "Founded an initiative focused on advancing AI literacy, digital inclusion, and responsible AI adoption across Africa.",
-      "Lead community-based programs that promote accessible AI education and digital empowerment.",
+      "Lead community based programs that promote accessible AI education and digital empowerment.",
       "Develop practical frameworks supporting ethical, explainable, and inclusive AI implementation.",
       "Collaborate with researchers, practitioners, policymakers, and technology leaders to strengthen digital inclusion across underserved communities.",
-      "Design and deliver AI literacy programs, workshops, and community engagement initiatives targeting youth, professionals, educators, and public-sector stakeholders.",
+      "Design and deliver AI literacy programs, workshops, and community engagement initiatives targeting youth, professionals, educators, and public sector stakeholders.",
     ],
   },
   {
     role: "Product Designer & Research Associate",
-    org: "Upanzi-DPI Network Research Lab, Carnegie Mellon University Africa",
+    org: "Upanzi DPI Network Research Lab, Carnegie Mellon University Africa",
     type: "Digital Public Infrastructure & DPGs",
     period: "2025 – 2026",
     highlights: [
@@ -41,11 +41,11 @@ const experiences = [
       "Conducted product discovery, stakeholder engagement, requirements gathering, and solution validation activities.",
       "Designed user journeys, workflows, wireframes, prototypes, and accessibility improvements across multiple platforms.",
       "Led quality assurance, accessibility evaluations, usability testing, and product validation activities.",
-      "Supported product strategy decisions through user insights, performance evaluations, and evidence-based recommendations.",
+      "Supported product strategy decisions through user insights, performance evaluations, and evidence based recommendations.",
       "Facilitated stakeholder demonstrations, product validation workshops, and user acceptance testing sessions.",
-      "Key Project — Assisted Authentication (MOSIP-based Digital Identity): Led UX design and product validation supporting inclusive access to digital identity services.",
-      "Key Project — AI Policy Analyzer: Supported product design, testing, and validation of an AI-powered policy analysis platform.",
-      "Key Project — AppKit Security Testing Platform: Conducted product evaluations, usability testing, and QA for AI-powered application vulnerability testing solutions.",
+      "Key Project — Assisted Authentication (MOSIP based Digital Identity): Led UX design and product validation supporting inclusive access to digital identity services.",
+      "Key Project — AI Policy Analyzer: Supported product design, testing, and validation of an AI powered policy analysis platform.",
+      "Key Project — AppKit Security Testing Platform: Conducted product evaluations, usability testing, and QA for AI powered application vulnerability testing solutions.",
     ],
   },
   {
@@ -57,13 +57,13 @@ const experiences = [
       "Key Project — BloodBank Platform: Served as PM Consultant for a digital BloodBank platform improving blood donation, inventory management, and healthcare service coordination.",
       "Led product discovery sessions with healthcare stakeholders, administrators, and end users.",
       "Defined product requirements, workflows, user journeys, and operational processes.",
-      "Collaborated with engineering and design teams to deliver scalable and user-centered healthcare solutions.",
+      "Collaborated with engineering and design teams to deliver scalable and user centered healthcare solutions.",
       "Supported roadmap planning, feature prioritization, QA activities, and release coordination.",
       "Facilitated user acceptance testing and stakeholder validation throughout the product lifecycle.",
     ],
   },
   {
-    role: "Research Assistant — Human-Centered Design",
+    role: "Research Assistant — Human Centered Design",
     org: "Carnegie Mellon University Africa, Kigali, Rwanda",
     type: "Assistive Technology Research",
     period: "Jun 2024 – Sep 2024",
@@ -71,7 +71,7 @@ const experiences = [
       "Led participatory design research focused on assistive technology solutions for children with autism.",
       "Conducted stakeholder interviews, field research, usability testing, and solution evaluation.",
       "Evaluated 50+ assistive technology applications using standardized usability assessment frameworks.",
-      "Collaborated with parents, caregivers, and community health workers to co-design accessible digital solutions.",
+      "Collaborated with parents, caregivers, and community health workers to co design accessible digital solutions.",
       "Produced actionable recommendations for improving accessibility and user experience.",
     ],
   },
@@ -91,7 +91,7 @@ export function ExperienceSection() {
           My <span className="text-accent">Experience</span>
         </h2>
         <p className="text-muted-foreground max-w-2xl mb-12">
-          Seven years leading product, digital transformation, and human-centered design across government, development, healthcare, and private-sector ecosystems.
+          Seven years leading product, digital transformation, and human centered design across government, development, healthcare, and private sector ecosystems.
         </p>
       </motion.div>
 
