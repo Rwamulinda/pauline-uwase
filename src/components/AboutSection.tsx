@@ -56,10 +56,10 @@ export function AboutSection() {
             assurance, accessibility, and Digital Public Infrastructure (DPI).
           </p>
           <p className="mt-5 text-base text-muted-foreground leading-relaxed">
-            Currently leading large-scale digital transformation initiatives including Rwanda's
-            national e-Procurement platform while managing cross-functional teams across product,
-            engineering, design, quality assurance, and operations. Proven ability to translate
-            complex stakeholder needs into scalable digital solutions that deliver measurable impact.
+            Currently leading the company behind Rwanda's national e-Procurement platform (version 2),
+            managing cross-functional teams across product, engineering, design, quality assurance, and
+            operations. Proven ability to translate complex stakeholder needs into scalable digital
+            solutions that deliver measurable impact.
           </p>
           <p className="mt-5 text-base text-muted-foreground leading-relaxed">
             Strong expertise in{" "}
