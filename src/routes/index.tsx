@@ -22,7 +22,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Portfolio of Pauline Uwase: AI governance researcher, digital transformation leader, and human-centered AI design expert based in Kigali, Rwanda.",
+          "Portfolio of Pauline Uwase: AI governance researcher, digital transformation leader, and human centered AI design expert based in Kigali, Rwanda.",
       },
     ],
   }),

@@ -32,7 +32,7 @@ const skillGroups = [
   {
     title: "Research Interests",
     items: [
-      "Human-Centered AI",
+      "Human Centered AI",
       "Digital Public Infrastructure",
       "Accessibility & Inclusion",
       "AI Governance",
