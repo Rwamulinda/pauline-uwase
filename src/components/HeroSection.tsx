@@ -3,7 +3,7 @@ import mascotHero from "@/assets/mascot-hero.png";
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section className="relative flex items-center overflow-hidden pt-20 pb-8 md:pt-24 md:pb-10">
       <div className="relative section-padding w-full max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           {/* Left: Text */}
@@ -29,8 +29,12 @@ export function HeroSection() {
               Digital Transformation Leader · Researcher on Human Centered AI
             </p>
             <p className="mt-4 text-base text-muted-foreground leading-relaxed max-w-xl">
-              Product and Digital Transformation Leader with 7 years of experience leading the design, delivery, and scaling of digital products across government, development, healthcare, and private sector ecosystems currently leading Rwanda's national e Procurement platform and cross functional teams across product, engineering, design, QA, and operations.
+              Product and Digital Transformation Leader with 7 years of experience leading the design, delivery, and scaling of digital products across government, development, healthcare, and private sector ecosystems. Currently leading a company behind the upgrade of Rwanda's national e Procurement platform and managing cross functional teams across product, engineering, design, quality assurance, and operations.
             </p>
+            <p className="mt-3 text-base text-muted-foreground leading-relaxed max-w-xl">
+              As a Human Centered AI researcher, my work explores how AI systems can be designed, governed, and deployed in ways that enhance human agency, inclusion, accessibility, and public value. My research focuses on participatory AI design, digital inclusion, AI governance, and the responsible adoption of AI in African contexts.
+            </p>
+
 
             <div className="mt-8 flex flex-wrap gap-4">
               <a
@@ -72,20 +76,6 @@ export function HeroSection() {
         </div>
       </div>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
-      >
-        <div className="w-5 h-8 border-2 border-foreground/20 rounded-full flex justify-center pt-1">
-          <motion.div
-            animate={{ y: [0, 8, 0] }}
-            transition={{ duration: 1.5, repeat: Infinity }}
-            className="w-1 h-2 bg-accent rounded-full"
-          />
-        </div>
-      </motion.div>
     </section>
   );
 }
