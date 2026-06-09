@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 const education = [
-  { degree: "MBA, Business Administration (Candidate)", school: "Oklahoma University", year: "2026 – 2027" },
+  { degree: "MBA, Business Administration (Candidate)", school: "Oklahoma Christian University", year: "2026 – 2027" },
   { degree: "MSc Information Technology (MSIT)", school: "Carnegie Mellon University Africa", year: "2023 – 2025" },
   { degree: "BSc Computer Science", school: "University of Rwanda, College of Science and Technology", year: "2018 – 2022" },
 ];
