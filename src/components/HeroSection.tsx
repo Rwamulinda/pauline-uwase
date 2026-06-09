@@ -36,7 +36,21 @@ export function HeroSection() {
             </p>
 
 
-            <div className="mt-8 flex flex-wrap gap-4">
+            {/* Stats */}
+            <div className="mt-6 flex flex-wrap gap-6">
+              {[
+                { num: "7+", label: "Years Experience" },
+                { num: "10+", label: "Projects Led" },
+                { num: "80K+", label: "Users Impacted" },
+              ].map((stat, i) => (
+                <div key={i} className="text-center">
+                  <p className="text-2xl font-bold text-accent">{stat.num}</p>
+                  <p className="text-xs text-muted-foreground mt-1">{stat.label}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-6 flex flex-wrap gap-4">
               <a
                 href="#research"
                 className="inline-flex items-center px-7 py-3.5 bg-primary text-primary-foreground font-medium rounded-full transition-all hover:opacity-90 hover:scale-105"
