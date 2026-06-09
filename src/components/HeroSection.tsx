@@ -29,8 +29,12 @@ export function HeroSection() {
               Digital Transformation Leader · Researcher on Human Centered AI
             </p>
             <p className="mt-4 text-base text-muted-foreground leading-relaxed max-w-xl">
-              Product and Digital Transformation Leader with 7 years of experience leading the design, delivery, and scaling of digital products across government, development, healthcare, and private sector ecosystems currently leading Rwanda's national e Procurement platform and cross functional teams across product, engineering, design, QA, and operations.
+              Product and Digital Transformation Leader with 7 years of experience leading the design, delivery, and scaling of digital products across government, development, healthcare, and private sector ecosystems. Currently leading a company behind the upgrade of Rwanda's national e Procurement platform and managing cross functional teams across product, engineering, design, quality assurance, and operations.
             </p>
+            <p className="mt-3 text-base text-muted-foreground leading-relaxed max-w-xl">
+              As a Human Centered AI researcher, my work explores how AI systems can be designed, governed, and deployed in ways that enhance human agency, inclusion, accessibility, and public value. My research focuses on participatory AI design, digital inclusion, AI governance, and the responsible adoption of AI in African contexts.
+            </p>
+
 
             <div className="mt-8 flex flex-wrap gap-4">
               <a
