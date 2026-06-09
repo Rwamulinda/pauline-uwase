@@ -35,7 +35,6 @@ function Index() {
       <Navigation />
       <main>
         <HeroSection />
-        <AboutSection />
         <CompetenciesSection />
         <ResearchSection />
         <ExperienceSection />
