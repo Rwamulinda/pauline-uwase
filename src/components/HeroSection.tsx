@@ -3,7 +3,7 @@ import mascotHero from "@/assets/mascot-hero.png";
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section className="relative flex items-center overflow-hidden pt-20 pb-8 md:pt-24 md:pb-10">
       <div className="relative section-padding w-full max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           {/* Left: Text */}
